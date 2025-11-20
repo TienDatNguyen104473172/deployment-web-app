@@ -1,6 +1,6 @@
 # speed-typist
 
-This template should help get you started developing with Vue 3 in Vite.
+Speed ​​Typist is a modern, minimalist web application designed to help users test and improve their typing speed and accuracy. With an intuitive and distraction-free interface, Speed ​​Typist provides an ideal practice environment for programmers, office workers, and anyone who wants to improve their keyboarding skills.
 
 ## Recommended IDE Setup
 
