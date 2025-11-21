@@ -1,50 +1,146 @@
-# speed-typist
+# Speed Typist
 
-Speed ​​Typist is a modern, minimalist web application designed to help users test and improve their typing speed and accuracy. With an intuitive and distraction-free interface, Speed ​​Typist provides an ideal practice environment for programmers, office workers, and anyone who wants to improve their keyboarding skills.
+A professional typing practice web application built with Vue 3 and Vite. Test and improve your typing speed with real-time metrics and performance tracking.
 
-## Recommended IDE Setup
+## About
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Speed Typist is a team project designed to provide an interactive typing practice platform with comprehensive metrics and results analysis. The application features multiple game modes, performance tracking, and a user-friendly interface for typing enthusiasts.
 
-## Recommended Browser Setup
+**Team Members:**
+- [TienDatNguyen](https://github.com/TienDatNguyen104473172)
+- [Jnabunsi](https://github.com/jnabulsi/)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Features
 
-## Customize configuration
+- Interactive typing game modes
+- Real-time performance metrics
+- Detailed results analysis
+- Clean and intuitive UI
+- Fast performance with Vite
+- Unit tests with Vitest
+- ESLint code quality checks
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
 
-## Project Setup
+- **Framework:** Vue 3
+- **Build Tool:** Vite
+- **State Management:** Pinia
+- **Routing:** Vue Router
+- **Testing:** Vitest
+- **Linting:** ESLint
+- **Code Formatting:** Prettier
 
-```sh
+## Project Structure
+
+```
+src/
+├── views/              # Page components (Home, Play, Results, Metrics)
+├── router/             # Vue Router configuration
+├── stores/             # Pinia state management
+├── __tests__/          # Unit tests
+├── App.vue             # Root component
+└── main.js             # Application entry point
+```
+
+## Prerequisites
+
+- Node.js: `^20.19.0` or `>=22.12.0`
+- npm or yarn
+
+## Getting Started
+
+### Installation
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development
 
-```sh
+Start the development server with hot module replacement:
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+The application will be available at `http://localhost:5173`
 
-```sh
+### Production Build
+
+Create an optimized production build:
+
+```bash
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Preview the production build locally:
 
-```sh
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server with HMR |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build locally |
+| `npm run test:unit` | Run unit tests with Vitest |
+| `npm run lint` | Lint and fix code with ESLint |
+| `npm run format` | Format code with Prettier |
+
+## Testing
+
+Run unit tests:
+
+```bash
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Code Quality
 
-```sh
+### Linting
+
+Check and fix code style issues:
+
+```bash
 npm run lint
 ```
+
+### Formatting
+
+Format code with Prettier:
+
+```bash
+npm run format
+```
+
+## IDE and Tools
+
+### Recommended IDE Setup
+
+- **Editor:** [VS Code](https://code.visualstudio.com/)
+- **Extension:** [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (disable Vetur if installed)
+
+### Browser DevTools
+
+**Chromium-based browsers (Chrome, Edge, Brave):**
+- [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+- Enable Custom Object Formatter in Chrome DevTools: [Guide](http://bit.ly/object-formatters)
+
+**Firefox:**
+- [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- Enable Custom Object Formatter: [Guide](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+
+## Configuration
+
+See the [Vite Configuration Reference](https://vite.dev/config/) for customization options.
+
+## License
+
+This project is part of a team development initiative.
+
+## Contributing
+- [TienDatNguyen](https://github.com/TienDatNguyen104473172)
+- [Jnabunsi](https://github.com/jnabulsi/)
